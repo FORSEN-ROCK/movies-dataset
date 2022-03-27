@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS tag (
+	id INT PRIMARY KEY,
+	userId INT NOT NULL,
+	movieId INT NOT NULL,
+	tag VARCHAR(30) NOT NULL,
+	created TIMESTAMP,
+	UNIQUE(userId, movieId)
+);
