@@ -1,3 +1,4 @@
+# This docker-compose file was taken from https://habr.com/ru/post/578744/
 version: "3.9"
 services:
   postgres:
